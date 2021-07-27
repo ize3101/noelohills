@@ -1,0 +1,32 @@
+body { margin: 0;}
+/* body{ -ms-overflow-style: none; }
+::-webkit-scrollbar { display: none; } */
+
+h1, h2, h3, h4, h5, h6, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+ul { list-style: none; }
+a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+.wrap {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+/* .inner_container {
+    padding: 0 20px;
+    height: 100%;
+} */
+/* .inner_padding {
+    width: 100%;
+    overflow: hidden;
+    padding: 0 150px;
+    box-sizing: border-box;
+} */
